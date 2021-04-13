@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+    <title>Single Equation Solver</title>
+</head>
+<body>
+    <h3>Supported operations:</h3>
+    <p>
+        addition: + <br>
+        subtraction: - <br>
+        multiplication: * <br>
+        division: / <br>
+        power: ^ <br>
+        parentheses: () <br>
+    </p>
+    <form id="input-equation">
+        <label for="eq-1">Write equation here:</label>
+        <input type="text" name="eq-1">
+        <input type="submit" value="Submit" class="button">
+    </form>
+
+    <textarea id="answer" readonly>{{ answer }}</textarea>
+</body>
