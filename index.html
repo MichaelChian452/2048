@@ -1,30 +1,67 @@
 <!DOCTYPE html>
 <head>
-    <title>Single Equation Solver</title>
+    <title>2048</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
 </head>
 <body>
-    <h3>Supported operations:</h3>
-    <p>
-        addition: + <br>
-        subtraction: - <br>
-        multiplication: * <br>
-        division: / <br>
-        power: ^ <br>
-        parentheses: () <br>
-    </p>
-    <form id="input-equation">
-        <label for="eq-1">Write equation here:</label>
-        <input type="text" name="eq-1">
-        <input type="submit" value="Submit" class="button">
-    </form>
+    <button type="button" onclick="start()">Restart</button>
+    <div class="board">
+        <div class="row">
+            <div class="spot">
 
-    <textarea id="answer" readonly>{{ answer }}</textarea>
-
-    <style>
-        body {
-            margin: 0px;
-            padding: 0px;
-        }
-        
-    </style>
+            </div>
+            <div class="spot">
+                
+            </div>
+            <div class="spot">
+                
+            </div>
+            <div class="spot">
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="spot">
+                
+            </div>
+            <div class="spot">
+                
+            </div>
+            <div class="spot">
+                
+            </div>
+            <div class="spot">
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="spot">
+                
+            </div>
+            <div class="spot">
+                
+            </div>
+            <div class="spot">
+                
+            </div>
+            <div class="spot">
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="spot">
+                
+            </div>
+            <div class="spot">
+                
+            </div>
+            <div class="spot">
+                
+            </div>
+            <div class="spot">
+                
+            </div>
+        </div>
+    </div>
 </body>

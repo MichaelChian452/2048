@@ -1,0 +1,30 @@
+.board
+{
+    height: 50vh;
+    width: 100%;
+    justify-content: center;
+    margin-top: 25vh;
+    margin-bottom: 25vh;
+}
+
+.row
+{
+    background-color: grey;
+    height: 100px;
+    width: 35%;
+    margin: auto;
+    display: flex;
+}
+
+.spot
+{
+    height: 96px;
+    width: 25%;
+    margin: 2px;
+    background-color: red;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
