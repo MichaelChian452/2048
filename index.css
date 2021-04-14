@@ -1,10 +1,21 @@
+#game-over-message
+{
+    display: none;
+}
+
+#bod
+{
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+}
+
 .board
 {
     height: 50vh;
+    margin-top: 25vh;
     width: 100%;
     justify-content: center;
-    margin-top: 25vh;
-    margin-bottom: 25vh;
 }
 
 .row
@@ -21,7 +32,13 @@
     height: 96px;
     width: 25%;
     margin: 2px;
-    background-color: red;
+    background-color: rosybrown;
+    font-size: 40px;
+    color: white;
+    transition: .2s;
+    font-family: Helvetica;
+    text-align: center;
+    line-height: 96px;
 }
 
 body{
